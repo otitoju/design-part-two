@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-between p-4  align-items-center border-bottom">
+    <div class="d-flex">
+        <img src="{{item.icon}}" alt="" width="70px" height="80px">&nbsp;&nbsp;&nbsp;
+        <div class="d-flex align-items-center ml-4">{{item.name}}</div>
+    </div>
+    <div [ngStyle]="{'font-size':'12px'}">
+        <fa-icon [icon]="faChevronRight"></fa-icon>
+    </div>
+</div>
